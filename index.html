@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        *{
+            margin: 0 auto;
+            padding: 0 10PX;
+        }
+
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table td{
+            border: 1px solid #333;
+            padding: 10px 30px;
+            line-height: 1.3;
+        }
+        table td:nth-child(2n){
+            padding: 10px 40px;
+        }
+        thead{
+            background-color: #efefef;
+        }
+        tbody{
+            background-color: #d1d1d1;
+        }
+        .a{
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .a td{
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        tbody td:nth-child(2n-1){
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="a">
+                <td>시간</td>
+                <td>09월 06일</td>
+                <td>시간</td>
+                <td>09월 07일</td>
+                <td>시간</td>
+                <td>09월 08일</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10:00</td>
+                <td>교토 호텔 체크아웃</td>
+                <td>06:30 ~ 07:00</td>
+                <td>기상 후 나갈 준비</td>
+                <td>07:00 ~ 08:00</td>
+                <td>기상 후 나갈 준비</td>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td>근처에서 아침 해결</td>
+                <td>08:00</td>
+                <td>오시하라바시역 -오사카 순환선→ 니시쿠조역 -JR 유메사키선 → 유니버설시티역 <br> 약 32분 소요</td>
+                <td>09:00</td>
+                <td>체크아웃 후 난카이난바역 이동 후 도톤보리 이동 <br>[물품보관함 / 도보8분] [도보 7분]</td>
+            </tr>
+            <tr>
+                <td>11:15</td>
+                <td>교토역 -도카이도/산요 본선→ 오사카역 (도보10분) <br>히가시우메다역 -다니마지선→ 덴마바시역<br> 약 1시간 10분 소요 { 물품보관함 }</td>
+                <td>09:00</td>
+                <td>유니버셜 입장</td>
+                <td>09:30</td>
+                <td>도톤보리 근처에서 아침식사 후 마지막 쇼핑</td>
+            </tr>
+            <tr>
+                <td>12:30</td>
+                <td>오사카성 즐기기<br>고부자네 뱃놀이 (오사카 주유패스 무료)<br>[ 13:00 / 13:15 / 13:30 ]</td>
+                <td>09:00 ~ 18:30</td>
+                <td>유니버셜 뿌수기</td>
+                <td>11:30</td>
+                <td>(도보 7분) 난카이난바역에서 물품찾고 <br>
+                    (도보 3분) 난바역 -미도스지선→ 덴노지역
+                    <br> 약 10분 소요</td>
+            </tr>
+            <tr>
+                <td>14:00</td>
+                <td>숙소 체크인<br>
+                    (도보18분) 모리노미야역 -주오선→ 혼마치역 -요쓰바시선→ 난바역 (도보8분)<br> 약 45분 소요</td>
+                <td>18:40</td>
+                <td>유니버설시티역 -JR 유메사키선→ 니시쿠조역 -한신 난바선→ 오사카난바역 <br> 약 20분 소요</td>
+                <td>12:00</td>
+                <td>덴노지동물원? <br> 관람시간 1시간 30분예상</td>
+            </tr>
+            <tr>
+                <td>15:20</td>
+                <td>(도보11분) 난바역 -미도스지선→ 우메다역 (도보12분)<br> 약 35분 소요</td>
+                <td>19:10</td>
+                <td>역 근처 돈키호테 상점가에서 간단한 식사, 쇼핑<br>도톤보리점 or 난바센니치마에점</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>16:00</td>
+                <td>우메다공중정원 즐기기<br>주유패스 무료</td>
+                <td>21:00</td>
+                <td>숙소 들어가서 쉬잠</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>18:00</td>
+                <td>헵파이브 관람차 탑승<br>주유패스 무료</td>
+                <td></td>
+                <td></td>
+                <td>15:30</td>
+                <td>덴노지역 -JR하루카→ 간사이 공항역 (도보 6분) <br>
+                    약 40분 소요</td>
+            </tr>
+            <tr>
+                <td>18:30</td>
+                <td>(도보7분) 우메다역 -미도스지선→ 난바역 <br>약 20분소요</td>
+                <td></td>
+                <td></td>
+                <td>18:30</td>
+                <td>줴펜...빠빠이..</td>
+            </tr>
+            <tr>
+                <td>19:00</td>
+                <td>도톤보리 먹부림 / 즐기기 <br> 시간 맞으면 크루즈 탑승 <br> [19:30~20:00 / 20:00~20:30]</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
